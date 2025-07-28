@@ -1,0 +1,295 @@
+@media (max-width: 640px) {
+  .metrics .metric {
+    font-size: 0.875rem;
+  }
+  .metrics .metric .title {
+    font-size: 1rem;
+  }
+  .metrics .metric .value {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .metrics .metric {
+    height: 220px;
+  }
+}
+
+/* dynamic card color */
+.emp_card_bg {
+  background: white;
+  color: black;
+}
+.schedule_card_bg {
+  background: white;
+  color: black;
+}
+.atte_card_bg {
+  background: white;
+  color: black;
+}
+.lea_card_bg {
+  background: white;
+  color: black;
+}
+.move_card_bg {
+  background: white;
+  color: black;
+}
+.absen_card_bg {
+  background: white;
+  color: black;
+}
+.card_text_color {
+  color: gray;
+}
+
+/* employee card bg hover */
+.emp_card_bg:hover {
+  background: #0091eb;
+  background: linear-gradient(
+    135deg,
+    rgb(1, 133, 214) 0%,
+    rgb(0, 77, 124) 100%
+  );
+  color: white;
+}
+.emp_card_bg:hover .card_text_color {
+  color: white;
+}
+
+.emp_circle {
+  height: 140px;
+  width: 140px;
+  background-color: #009dff;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: -75px;
+  opacity: 0.1;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.emp_card_bg:hover .emp_circle {
+  height: 160px;
+  width: 160px;
+  background-color: #5cc0ff;
+  top: -80px;
+  left: -65px;
+  opacity: 0.1;
+}
+
+/* schedule card bg hover */
+.schedule_card_bg:hover {
+  background: #8a67c6;
+  background: linear-gradient(
+    135deg,
+    rgba(138, 103, 198, 1) 0%,
+    rgba(97, 72, 139, 1) 100%
+  );
+  color: white;
+}
+.schedule_card_bg:hover .card_text_color {
+  color: white;
+}
+.schedule_circle {
+  height: 140px;
+  width: 140px;
+  background-color: #d50efd;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: -75px;
+  opacity: 0.1;
+  z-index: 1;
+  transition: all 1s;
+}
+.schedule_card_bg:hover .schedule_circle {
+  height: 160px;
+  width: 160px;
+  background-color: #e485f7;
+  top: -80px;
+  left: -65px;
+  opacity: 0.1;
+}
+
+/* attendence card bg hover */
+.atte_card_bg:hover {
+  background: #088c61;
+  background: linear-gradient(
+    135deg,
+    rgba(8, 140, 97, 1) 0%,
+    rgba(5, 96, 66, 1) 100%
+  );
+  color: white;
+}
+.atte_card_bg:hover .card_text_color {
+  color: white;
+}
+.atte_circle {
+  height: 140px;
+  width: 140px;
+  background-color: #019c69;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: -75px;
+  opacity: 0.1;
+  z-index: 1;
+  transition: all 1s;
+}
+.atte_card_bg:hover .atte_circle {
+  height: 160px;
+  width: 160px;
+  background-color: #05d690;
+  top: -80px;
+  left: -65px;
+  opacity: 0.1;
+}
+
+/* leave card bg hover */
+.lea_card_bg:hover {
+  background: #daaa2b;
+  background: linear-gradient(
+    135deg,
+    rgba(218, 170, 43, 1) 0%,
+    rgba(167, 127, 19, 1) 100%
+  );
+  color: white;
+}
+.lea_card_bg:hover .card_text_color {
+  color: white;
+}
+.lea_circle {
+  height: 140px;
+  width: 140px;
+  background-color: #ffa600;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: -75px;
+  opacity: 0.1;
+  z-index: 1;
+  transition: all 1s;
+}
+.lea_card_bg:hover .lea_circle {
+  height: 160px;
+  width: 160px;
+  background-color: #fff1cc;
+  top: -80px;
+  left: -65px;
+  opacity: 0.1;
+}
+
+/* movement card bg hover */
+.move_card_bg:hover {
+  background: #6ca9ae;
+  background: linear-gradient(
+    135deg,
+    rgba(108, 169, 174, 1) 0%,
+    rgba(82, 129, 132, 1) 100%
+  );
+  color: white;
+}
+.move_card_bg:hover .card_text_color {
+  color: white;
+}
+.move_circle {
+  height: 140px;
+  width: 140px;
+  background-color: #00eaff;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: -75px;
+  opacity: 0.1;
+  z-index: 1;
+  transition: all 1s;
+}
+.move_card_bg:hover .move_circle {
+  height: 160px;
+  width: 160px;
+  background-color: #a7f8ff;
+  top: -80px;
+  left: -65px;
+  opacity: 0.1;
+}
+
+/* absent card bg hover */
+.absen_card_bg:hover {
+  background: #bf3056;
+  background: linear-gradient(
+    135deg,
+    rgba(191, 48, 86, 1) 0%,
+    rgba(135, 33, 61, 1) 100%
+  );
+  color: white;
+}
+.absen_card_bg:hover .card_text_color {
+  color: white;
+}
+.absen_circle {
+  height: 140px;
+  width: 140px;
+  background-color: #ff0044;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: -75px;
+  opacity: 0.1;
+  z-index: 1;
+  transition: all 1s;
+}
+.absen_card_bg:hover .absen_circle {
+  height: 160px;
+  width: 160px;
+  background-color: #ffa5bd;
+  top: -80px;
+  left: -65px;
+  opacity: 0.1;
+}
+
+/* icon color */
+.emp_icon_color {
+  color: #0091eb;
+}
+.emp_card_bg:hover .emp_icon_color {
+  color: white;
+}
+
+.sche_icon_color {
+  color: #6e529d;
+}
+.schedule_card_bg:hover .sche_icon_color {
+  color: white;
+}
+
+.atten_icon_color {
+  color: #066344;
+}
+.atte_card_bg:hover .atten_icon_color {
+  color: white;
+}
+
+.lea_icon_color {
+  color: #d6a218;
+}
+.lea_card_bg:hover .lea_icon_color {
+  color: white;
+}
+
+.move_icon_color {
+  color: #6ca9ae;
+}
+.move_card_bg:hover .move_icon_color {
+  color: white;
+}
+
+.abs_icon_color {
+  color: #bf3056;
+}
+.absen_card_bg:hover .abs_icon_color {
+  color: white;
+}
